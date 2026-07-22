@@ -1,0 +1,39 @@
+{
+  "name": "Spinor Physics Simulator",
+  "short_name": "SpinorSim",
+  "description": "Interactive visualization engine for 720-degree Dirac spinor rotations, wave collapses, and quantum lattice dynamics.",
+  "lang": "en-US",
+  "start_url": "./spinor.html",
+  "id": "./spinor.html",
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#00ff41",
+  "categories": ["education", "utilities", "science"],
+  "shortcuts": [
+    {
+      "name": "Dirac Rotation",
+      "url": "./spinor.html?mode=rotate",
+      "description": "720-degree rotation view"
+    },
+    {
+      "name": "Lattice Collapse",
+      "url": "./spinor.html?mode=lattice",
+      "description": "Wavefront propagation view"
+    }
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
